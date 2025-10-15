@@ -1,0 +1,1 @@
+const NOMBRES_USUARIO = [ "   juan   pérez   gómez   ",  "  maría   ANTONIA  García", "roBERTo   ",  "  ana  luisa   fernández   díaz  ",   "ELENA",  "   pedro   LÓPEZ"];

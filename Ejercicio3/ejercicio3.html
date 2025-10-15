@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Catálogo de Productos</title>
+    <link rel="stylesheet" href="ejercicio3.css">
+    <script src="datos_ejercicio3.js"></script>
+    <script src="ejercicio3.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de la Tienda</h1>
+    </header>
+    <main>
+        <div id="filtro">
+            <p>
+                <button onclick="mostrarTodos()">Ver Todos</button>
+            </p>
+            <p>Categorias:
+                <select>
+                </select>
+                <button onclick="filtrar()">Filtrar</button>
+            </p>
+        </div>
+        <div id="catalogo"></div>
+    </main>
+</body>
+</html>
